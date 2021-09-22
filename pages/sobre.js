@@ -4,8 +4,10 @@ function Sobre() {
     return (
         <div>
             <h1>Oloco meu</h1>
+            <h1>Esta é a página da Roseli</h1>
             <Contador />
             <a href="/"> Acessar página Home</a>
+
         </div>
     )
 }
