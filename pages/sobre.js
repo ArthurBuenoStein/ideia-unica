@@ -1,11 +1,11 @@
 import { useState } from 'react';
 
-function Home() {
+function Sobre() {
     return (
         <div>
-            <h1>Esse tá bombando</h1>
+            <h1>Oloco meu</h1>
             <Contador />
-            <a href="/sobre"> Acessar página Sobre</a>
+            <a href="/"> Acessar página Home</a>
         </div>
     )
 }
@@ -23,4 +23,4 @@ function Contador() {
         </div>
     )
 }
-export default Home
+export default Sobre
