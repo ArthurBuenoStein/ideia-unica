@@ -7,7 +7,7 @@ async function tempo(request, response) {
 
     response.json({
         date: dynamicDate.toUTCString(),
-        temperatura: temperatura        
+    //    temperatura: temperatura        
     });
 }
 
