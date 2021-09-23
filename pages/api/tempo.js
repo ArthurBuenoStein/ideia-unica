@@ -1,8 +1,9 @@
-function tempo(request,response){
+function tempo(request, response) {
     const dynamicDate = new Date();
 
     response.json({
-        date: dynamicDate.toGMTSring()
+        date: dynamicDate.toUTCString()
+
     });
 }
 
