@@ -3,7 +3,7 @@ async function tempo(request, response) {
 
     const temperaturaAtual = await fetch("https://api.hgbrasil.com/weather?key=53fc40c6&city_name=Portão,RS");
     const temperaturaAtualJson = await temperaturaAtual.json();
-    const temperatura = temperaturaAtualJson.results.temp;
+    const temperatura = temperaturaAtualJson.temp;
 
     response.json({
         date: dynamicDate.toUTCString(),
