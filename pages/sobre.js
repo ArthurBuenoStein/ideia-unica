@@ -1,5 +1,6 @@
-import { useState } from 'react';
 import Link from 'next/link';
+import { useState } from 'react';
+
 
 function Sobre() {
     return (
@@ -11,7 +12,7 @@ function Sobre() {
             <Link href="/">
                 <a> Acessar página Home</a>
             </Link>
-            
+
         </div>
     )
 }
