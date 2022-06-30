@@ -1,7 +1,12 @@
 {
   "name": "ideia-unica",
+<<<<<<< HEAD
   "version": "1.0.0",
   "description": "asdasd",
+=======
+  "iversion": "1.0.0",
+  "description": " ",
+>>>>>>> teste
   "main": "index.js",
   "scripts": {
     "dev": "next dev"
