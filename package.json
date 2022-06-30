@@ -1,16 +1,8 @@
 {
   "name": "ideia-unica",
-<<<<<<< HEAD
   "version": "1.0.0",
-<<<<<<< HEAD
-  "description": "asdasd",
-=======
   "iversion": "1.0.0",
-  "description": " ",
->>>>>>> teste
-=======
   "description": "alterando online",
->>>>>>> 15da328347e03944c888b94fa1d1a103bf483382
   "main": "index.js",
   "scripts": {
     "dev": "next dev"
