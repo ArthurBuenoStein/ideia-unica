@@ -1,7 +1,7 @@
 {
   "name": "ideia-unica",
-  "version": "1.0.0",
-  "description": "",
+  "iversion": "1.0.0",
+  "description": " ",
   "main": "index.js",
   "scripts": {
     "dev": "next dev"
